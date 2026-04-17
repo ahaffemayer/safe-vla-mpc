@@ -1,0 +1,14 @@
+title: "From Vision-Language-Action to Torque: A Model Predictive Safety and Compliance Layer for Generalist Manipulation Policies"
+authors: >
+  Arthur Haffemayer¹*, Georgy Ponimatkin¹²*, Martin Sedlacek¹², Josef Sivic¹, Vladimir Petrik¹
+affiliations: >
+  ¹ CIIRC, Czech Technical University in Prague, Czech Republic<br>
+  ² Faculty of Electrical Engineering, Czech Technical University in Prague, Czech Republic<br>
+  <span style="font-size:13px;">* Equal contribution.</span>
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+# hide the default "View on GitHub / Download" buttons
+show_downloads: false
+github:
+  is_project_page: true

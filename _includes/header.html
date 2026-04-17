@@ -1,0 +1,40 @@
+<header class="page-header" role="banner">
+  <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+
+  {% if site.authors %}
+  <p class="project-authors">
+    {{ site.authors }}
+  </p>
+  {% endif %}
+
+  {% if site.affiliations %}
+  <p class="project-affiliations">
+    {{ site.affiliations }}
+  </p>
+  {% endif %}
+
+  <div class="button-row">
+    <a class="btn"
+       href=""
+       target="_blank" rel="noopener">
+      💻 Code (coming soon)
+    </a>
+    <a class="btn"
+       href=""
+       target="_blank" rel="noopener">
+      📄 Paper
+    </a>
+  </div>
+</header>
+
+<style>
+.project-authors {
+  margin-top: 6px;
+  font-size: 1.05rem;
+}
+
+.project-affiliations {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+</style>
